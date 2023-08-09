@@ -1,0 +1,88 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+    
+}
+div {
+    display: block;
+}
+.img1{
+    background-image: url("Images/img1.jpg");
+    min-height: 100%;
+}
+.img2{
+    background-image: url("Images/img2.jpg");
+    min-height: 100%;
+}
+.img3{
+    background-image: url("Images/img3.jpg");
+    min-height: 100%;
+}
+.img4{
+    background-image: url("Images/img4.jpg");
+    min-height: 100%;
+}
+.img1,.img2,.img3,.img4{
+    position: relative;
+    
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+
+}
+.head1,.head2,.head3, .head4{ 
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    color: aliceblue;
+   
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    
+
+}
+.head1 .ti1{
+    background-color: rgb(164, 28, 28);
+    padding: 20px;
+    cursor: pointer;
+
+}
+.head2 .ti2{
+    background-color: black;
+    padding: 20px;
+
+}
+.head3 .ti3{
+    background-color: rgb(78, 15, 150);
+    padding: 20px;
+}
+.head4 .ti4{
+    background-color: rgb(6, 54, 99);
+    padding: 20px;
+}
+.section-white{
+    background-color: rgb(255, 255, 255);
+    padding: 50px 80px;
+    font-size: 20px;
+}
+.section-dark{
+    background-color: black;
+    padding: 50px 80px;
+    font-size: 20px;
+}
+
+@media (max-width: 580px) {
+    .img1, .img2, .img3{
+        background-attachment:scroll;
+      }
+    
+}
